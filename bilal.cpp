@@ -1,5 +1,9 @@
 #include <iostream>
 using namespace std;
+
+void show(){
+    cout<<"hello world";
+}
     int main()
     {
         int a;
@@ -13,10 +17,9 @@ using namespace std;
             cout<<"number is even";
             
         }
-        void show(){
-            cout<<"hello world";
-        }
+        
         show();
+
         return 0;
     }
     
